@@ -5,7 +5,7 @@ let timer={
     isBreak:false,
     breakLength:[5,0],
     session:[25,0],
-    time:[25,10],
+    time:[25,0],
     pausedTime:null,
 }
 $('#break-decrement').click(()=>setBreak("minus"))
